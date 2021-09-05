@@ -47,7 +47,6 @@ BO_EXCLUDED = set([
 ])
 
 BO_CHANGED_EXCLUDED = set([
-    'Liberator',
     'SiegeTank',  # from dropping sieged tanks from medivacs
     'VikingAssault',  # various viking transforms
     'VikingFighter',
@@ -61,6 +60,16 @@ BO_UPGRADES_EXCLUDED = set([
     'SprayTerran',
     'SprayProtoss',
     'SprayZerg',
+    'RewardDanceOverlord',
+    'RewardDanceStalker',
+    'RewardDanceGhost',
+    'RewardDanceColossus',
+    'RewardDanceRoach',
+    'RewardDanceOracle',
+    'RewardDanceMule',
+    'RewardDanceViking',
+    'RewardDanceInfestor',
+    'GameHeartActive'
 ])
 
 BUILD_DATA = {
@@ -146,6 +155,11 @@ BUILD_DATA = {
         "display_name": "Medivac"
     },
     "Liberator": {
+        "build_time": 43,
+        "built_from": [ "Starport" ],
+        "display_name": "Liberator"
+    },
+    "LiberatorAG": {
         "build_time": 43,
         "built_from": [ "Starport" ],
         "display_name": "Liberator"
